@@ -1,0 +1,22 @@
+description = "Source Code From The Meet Spring Batch Presentation"
+
+buildscript {
+	repositories {
+	    mavenCentral()
+	}
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.3.2.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'application'	
+apply plugin: 'spring-boot'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}	
